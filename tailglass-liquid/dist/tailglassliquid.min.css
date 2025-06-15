@@ -1,0 +1,25 @@
+:root {
+    --lg-bg-color: rgba(255, 255, 255, 0.25);
+    --lg-highlight: rgba(255, 255, 255, 0.75);
+    --lg-text: #ffffff;
+    --lg-red: #fb4268;
+    --lg-grey: #444739;
+  }
+  
+  .liquid-glass {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lg-bg-color);
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 30px rgba(0, 0, 0, 0.1);
+    color: var(--lg-text);
+    padding: 1.5rem 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
